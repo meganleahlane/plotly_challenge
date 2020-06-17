@@ -1,7 +1,7 @@
 // Reading in json data from a file
 var bioData; 
 
-d3.json("../../samples.json").then((importedData) => {
+d3.json("samples.json").then((importedData) => {
     console.log(importedData);
     bioData = importedData;
     console.log(bioData);
